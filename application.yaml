@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: mixeddrinks
+    password: mixeddrinks
+    url: jdbc:mysql://localhost:3306/mixed_drinks
+    
+logging:
+  level:
+    root: error
+    '[com.promineotech]': debug
+    '[org.springframework]': info
+    
